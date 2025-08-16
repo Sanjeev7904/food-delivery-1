@@ -1,0 +1,66 @@
+.maindev{
+    
+    height: 270px;
+    width: 270px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 15% 15%;
+     /* box-shadow: 0px 0px 10px #00000015;   */
+    transition: 0.3s; 
+     animation: fadeIn is;
+}
+.img1{
+    height: 180px;
+    width: 260px;
+    border-radius: 15% 15% 0 0;
+}
+.ab{
+    height: 220px;
+    width: 260px;
+    position: relative;
+
+
+}
+#in{
+    position: absolute;
+    bottom: 50px;
+    right: 15px;
+
+}
+.add-item{
+ height: 45px;   
+display: flex;
+gap:10px;
+position: absolute;
+bottom: 50px;
+right: 15px;
+border:10px solid white;
+background-color: white;
+border-radius: 40%;
+
+
+}
+  .contants1{
+    margin-top: 20px;
+   
+    
+} 
+.price{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 10px;
+} 
+
+.rating{
+    display: flex;
+    /* justify-content: space-around; */
+    gap:40px
+}
+ 
+h3{
+
+  font-weight: 600;
+  font-size: medium;
+
+}

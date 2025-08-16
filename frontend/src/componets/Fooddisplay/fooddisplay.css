@@ -1,0 +1,13 @@
+.auto1{
+    max-width: 1110px;
+    margin-inline: auto;
+}
+
+
+.food-display-list{
+    display: grid;
+    grid-template-columns: auto  auto  auto  auto;
+    column-gap: 5px;
+
+
+}

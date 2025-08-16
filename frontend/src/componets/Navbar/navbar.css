@@ -1,0 +1,52 @@
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+}
+
+.navbar-meanu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+}
+
+.right-navbar {
+  display: flex;
+  margin-right: 40px;
+
+  gap: 20px;
+}
+
+.singnin {
+  padding: 10px 25px;
+  border-radius: 50px;
+  transition: 0.3s;
+  font-size: 14px;
+  background-color: transparent;
+  cursor: pointer;
+  font-weight: 600;
+  color: rgb(86, 78, 65);
+}
+
+.singnin:hover {
+  background-color: #fff4f2;
+}
+
+.active {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.navbar-search-icon {
+  position: relative;
+}
+.dot {
+  position: absolute;
+  min-width: 10px;
+  min-height: 10px;
+  border-radius: 50%;
+  background-color: tomato;
+  top: -8px;
+  right: -8px;
+}

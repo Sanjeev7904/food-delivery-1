@@ -1,0 +1,82 @@
+.help{
+
+    max-width: 1110px;
+    margin-inline: auto;
+   
+    margin-top: 30px;
+
+}
+
+
+.main-meanu{
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+
+.small-meanu{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    text-align: center;
+    overflow-x: scroll;
+    padding: 10px;
+    /* scroll-behavior: smooth; */
+}
+
+.small-meanu::-webkit-scrollbar{
+   display: none;
+
+}
+
+
+
+
+.small-meanu img{
+  
+    width: 7.5vw;
+    min-width: 80px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.2s;
+
+}
+.small-meanu p{
+  margin-top: 10px;
+  color: #747474;
+  font-size: max(1.4vw,16);
+  cursor: pointer;
+}
+
+.small-meanu hr{
+
+    margin: 10px 0px;
+    height: 2px;
+    background-color: #e2e2e2;
+    border:none;
+}
+
+
+
+.ptag{
+
+  max-width: 50%;  
+}
+
+.h1tag{
+    font-weight:500;
+    color: #262626;
+    
+    
+
+
+
+}
+.active1{
+  
+    border: 4px splid tomato;
+    padding: 2px;
+    background-color: red;
+
+} 
